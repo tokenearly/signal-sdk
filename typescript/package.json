@@ -1,0 +1,53 @@
+{
+  "name": "@tokenearly/signal",
+  "version": "0.1.0",
+  "description": "TypeScript/JavaScript client for the Tokenearly Signal API: push crypto signals that Tokenearly delivers to subscribers on Telegram, Bark, PushDeer, WeCom, DingTalk, Feishu and Webhook. Zero dependencies (fetch).",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "default": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "vitest run",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "crypto",
+    "cryptocurrency",
+    "alerts",
+    "signals",
+    "token listing",
+    "exchange announcements",
+    "tokenearly",
+    "telegram"
+  ],
+  "author": "Tokenearly",
+  "license": "MIT",
+  "homepage": "https://tokenearly.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tokenearly/signal-sdk.git",
+    "directory": "typescript"
+  },
+  "bugs": {
+    "url": "https://github.com/tokenearly/signal-sdk/issues"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.0",
+    "vitest": "^1.6.0"
+  }
+}
