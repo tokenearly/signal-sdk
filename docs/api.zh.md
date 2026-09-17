@@ -12,7 +12,7 @@ Content-Type: application/json
 X-Signal-Token: <Tokenearly 提供给你的 token>
 ```
 
-也可以用 `Authorization: Bearer <token>`。token 按提供方发放：在 Telegram 群 https://t.me/ismetaverse 或通过 https://tokenearly.com/dashboard 联系我们索取。
+也可以用 `Authorization: Bearer <token>`。token 按提供方发放：通过 Telegram 客服 https://t.me/tokenearly_app 或通过 https://tokenearly.com/dashboard 联系我们索取。
 
 ## 2. 请求体
 

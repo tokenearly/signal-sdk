@@ -12,7 +12,7 @@ Content-Type: application/json
 X-Signal-Token: <token issued by Tokenearly>
 ```
 
-`Authorization: Bearer <token>` is accepted as an alternative to `X-Signal-Token`. Tokens are issued per provider: ask in the Telegram group https://t.me/ismetaverse or through https://tokenearly.com/dashboard.
+`Authorization: Bearer <token>` is accepted as an alternative to `X-Signal-Token`. Tokens are issued per provider: ask Telegram support https://t.me/tokenearly_app or through https://tokenearly.com/dashboard.
 
 ## 2. Request body
 

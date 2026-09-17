@@ -19,7 +19,7 @@ your data source ──► SignalClient.send(event) ──► POST /receive_sign
                                                               (zh / en / ko, per subscriber)
 ```
 
-1. Ask Tokenearly for a token in the Telegram group https://t.me/ismetaverse (or through https://tokenearly.com/dashboard).
+1. Ask Tokenearly for a token through Telegram support https://t.me/tokenearly_app (or through https://tokenearly.com/dashboard).
 2. Send your first event. It is stored and answered with HTTP 202 `pending_review`.
 3. Once Tokenearly approves your `source_id`, events return HTTP 200 and subscribers can enable your source at https://tokenearly.com/dashboard.
 

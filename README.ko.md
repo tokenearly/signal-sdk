@@ -15,7 +15,7 @@ your data source ──► SignalClient.send(event) ──► POST /receive_sign
                                                               (zh / en / ko, per subscriber)
 ```
 
-1. Telegram 그룹(https://t.me/ismetaverse) 또는 https://tokenearly.com/dashboard 페이지를 통해 Tokenearly에 토큰을 요청합니다.
+1. Telegram 고객지원(https://t.me/tokenearly_app) 또는 https://tokenearly.com/dashboard 페이지를 통해 Tokenearly에 토큰을 요청합니다.
 2. 첫 이벤트를 전송합니다. 이벤트는 저장되고 HTTP 202 `pending_review`로 응답합니다.
 3. Tokenearly가 `source_id`를 승인하면 이벤트는 HTTP 200을 반환하며, 구독자는 https://tokenearly.com/dashboard 페이지에서 소스를 활성화할 수 있습니다.
 

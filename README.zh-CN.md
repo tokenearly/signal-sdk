@@ -15,7 +15,7 @@ your data source ──► SignalClient.send(event) ──► POST /receive_sign
                                                               (zh / en / ko, per subscriber)
 ```
 
-1. 在 Telegram 群 https://t.me/ismetaverse 向 Tokenearly 申请令牌（或通过 https://tokenearly.com/dashboard 申请）。
+1. 通过 Telegram 客服 https://t.me/tokenearly_app 向 Tokenearly 申请令牌（或通过 https://tokenearly.com/dashboard 申请）。
 2. 发送你的第一个事件。事件会被存储，并返回 HTTP 202 `pending_review`。
 3. Tokenearly 审核通过你的 `source_id` 后，事件将返回 HTTP 200，订阅者即可在 https://tokenearly.com/dashboard 启用你的信号源。
 
