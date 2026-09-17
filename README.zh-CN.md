@@ -120,6 +120,19 @@ signal-sdk/
 └── typescript/          @tokenearly/signal — SignalClient, sendSignal, vitest tests, examples
 ```
 
+## 相关项目
+
+Tokenearly 公开的全部资产，按需选择入口：
+
+- 网站：[Tokenearly](https://tokenearly.com) —— 加密资产交易所上新公告、资讯与推特动态的实时提醒；另见[上新时间线](https://tokenearly.com/listings)与[公开上新接口](https://tokenearly.com/api/public/listings.json)（JSON，无需密钥）。
+- Python 包：[PyPI 上的 tokenearly](https://pypi.org/project/tokenearly/)（[源码](https://github.com/tokenearly/tokenearly-python)）—— `pip install tokenearly`，读取公开上新接口的命令行与 Python 客户端。
+- Node.js 包：[npm 上的 tokenearly](https://www.npmjs.com/package/tokenearly)（[源码](https://github.com/tokenearly/tokenearly-js)）—— `npm install tokenearly`，零依赖的命令行与 Node.js 客户端。
+- n8n 模板：[将 10 家交易所的新币上线提醒发送到 Telegram、Discord 和 Google Sheets](https://n8n.io/workflows/19448-send-new-token-listing-alerts-from-10-crypto-exchanges-to-telegram-discord-and-google-sheets/)（[源码](https://github.com/tokenearly/n8n-templates)）—— 可直接导入的工作流，无需写代码。
+- Webhook 接收端：[webhook-examples](https://github.com/tokenearly/webhook-examples) —— Tokenearly Webhook 推送格式说明，以及 FastAPI、Express、Cloudflare Workers 接收端示例。
+- 资源清单：[awesome-crypto-listing-alerts](https://github.com/tokenearly/awesome-crypto-listing-alerts) —— 交易所官方公告页、上新提醒工具、开源机器人与上新效应研究的精选清单。
+- GitHub 组织：[github.com/tokenearly](https://github.com/tokenearly) —— 全部仓库（组织主页：[.github](https://github.com/tokenearly/.github)）。
+- Telegram：官方频道 [@tokenearly_channel](https://t.me/tokenearly_channel)，官方机器人 [@tokenearly_bot](https://t.me/tokenearly_bot)。
+
 ## 许可证
 
 MIT © Tokenearly，见 [LICENSE](LICENSE)。

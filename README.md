@@ -124,6 +124,19 @@ signal-sdk/
 └── typescript/          @tokenearly/signal — SignalClient, sendSignal, vitest tests, examples
 ```
 
+## Related projects
+
+Everything Tokenearly publishes, so you can pick the entry point that fits:
+
+- Website: [Tokenearly](https://tokenearly.com) — real-time alerts for crypto exchange token listings, announcements, news and X activity; see the [listings timeline](https://tokenearly.com/listings) and the [public listings feed](https://tokenearly.com/api/public/listings.json) (JSON, no key).
+- Python package: [tokenearly on PyPI](https://pypi.org/project/tokenearly/) ([source](https://github.com/tokenearly/tokenearly-python)) — `pip install tokenearly`; command line and Python client for the public listings feed.
+- Node.js package: [tokenearly on npm](https://www.npmjs.com/package/tokenearly) ([source](https://github.com/tokenearly/tokenearly-js)) — `npm install tokenearly`; command line and Node.js client, zero dependencies.
+- n8n template: [Send new token listing alerts from 10 crypto exchanges to Telegram, Discord and Google Sheets](https://n8n.io/workflows/19448-send-new-token-listing-alerts-from-10-crypto-exchanges-to-telegram-discord-and-google-sheets/) ([source](https://github.com/tokenearly/n8n-templates)) — import-ready workflow, no code.
+- Webhook receivers: [webhook-examples](https://github.com/tokenearly/webhook-examples) — the Tokenearly webhook payload schema and receivers for FastAPI, Express and Cloudflare Workers.
+- Curated list: [awesome-crypto-listing-alerts](https://github.com/tokenearly/awesome-crypto-listing-alerts) — exchange announcement pages, listing alert tools, open-source bots and research on the listing effect.
+- GitHub organization: [github.com/tokenearly](https://github.com/tokenearly) — all repositories (organization profile: [.github](https://github.com/tokenearly/.github)).
+- Telegram: official channel [@tokenearly_channel](https://t.me/tokenearly_channel), official bot [@tokenearly_bot](https://t.me/tokenearly_bot).
+
 ## License
 
 MIT © Tokenearly — see [LICENSE](LICENSE).
